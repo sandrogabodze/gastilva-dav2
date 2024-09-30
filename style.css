@@ -1,71 +1,77 @@
-
-
-
-.password1 {
-    width: 315px;
-    height: 45px;
-    border: 1px solid; color: #E0E0E0;
-    border-radius: 10px;
-    outline: none;
-    display: flex;
-    padding-left: 10px;
-    
-    
+@font-face {
+    font-family: "chemi fonti";
+    src: url("fonts/Inter-VariableFont_opsz\,wght.ttf");
 }
 
-.password2 {
-    width: 467px;
-    height: 45px;
-    border-color: #FF0000; 
-    background-color: #610000;
-    border-radius: 15px;
-    color: #F07272;
-    outline: none;
-    margin-top: 10px;
-}
-
-.password2:focus {
-    background-color: yellow;
-}
-
-.password3 {
-    width: 541px;
-    height:45px ;
-    border-color: #A8AB00;
-    border-radius: 5px;
-    outline: none;
-    margin-top: 10px;
-    padding-left: 10px;   
-    caret-color: red;
-}
-
-
-.password3::placeholder {
-    color: #A8AB00;
+body {
+    background-color: #E0E0E0;
+    font-family: "chemi fonti";
     font-weight: 500;
 }
 
-
-.password4 {
-    width: 315px;
-    height: 45px;
-    border: 2px solid  #F9FE03;
-    border-radius: 30px;
-    outline: none;
-    background-color: #292828;
-    margin-top: 10px;
-    padding-left:10px ;
+.div {
+    width: 378px;
+    height: 489px;
+    border: 1px solid; color: white ;
+    margin-left: 451px;
+    margin-top: 131px;
+    background-color: white;
     
 }
 
-.password4:focus {
-    background-color: green;
+.photo {
+    margin-left: 10px;
+    margin-top: 7px;
 }
 
-.password4::placeholder {
-    color: #F9FE03;
+.input {
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    margin-right:20px ;
+    margin-left: 20px;
+    border: 1px solid; color: grey;
+    outline: none;
+
 }
 
+.Email {
+    color: black;
+    margin-left: 20px;
+   
+    
+    
+}
 
+.Password {
+    margin-top: 25px;
+    width: 315px;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid; color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
 
+}
+.Password1 {
+    color: black;
+    margin-left: 20px;
+    display: block;
+    
+}
+
+    
+
+.button {
+    width: 320px;
+    height: 45px;
+    border: 1px solid; color: #000000;
+    background-color: #6756CB;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 21px;
+}
+    
     
